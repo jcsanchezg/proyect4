@@ -12,7 +12,7 @@ function HeaderMenu() {
           <Link to="/about">About</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/product">Product</Link>
         </li>
       </ul>
     </nav>
