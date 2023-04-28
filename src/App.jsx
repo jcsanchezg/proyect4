@@ -7,17 +7,13 @@ import About from './pages/About';
 
 function App() {
   return (
-    <React.Fragment>
-      <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/" element={<Layout />}/>
           <Route path='product' element={<Product />} />
           <Route path='about' element={<About />} />
-        </Route> 
+        {/* </Route>  */}
         <Route path='*' element={<Navigate to="/" />} />
       </Routes>
-      </BrowserRouter>
-    </React.Fragment>
   );
 }
 
