@@ -1,7 +1,7 @@
 import React from "react";
 
 const Dish = (props) => {
-    const { image, name, description, price=0, action=null} = props;
+    const { image, name, description, price=0} = props;
 
     return (
         <article>

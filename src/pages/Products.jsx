@@ -5,14 +5,6 @@ import breky from "../images/breky.jpg";
 import lunch from "../images/lunch.png";
 import ricedinner from "../images/ricedinner.png";
 
-const contentStyle = {
-    margin: 0,
-    height: '300px',
-    color: '#fff',
-    lineHeight: '160px',
-    textAlign: 'center',
-    background: '#364d79',
-    };
 const Product = () => {
 
 //data for products
