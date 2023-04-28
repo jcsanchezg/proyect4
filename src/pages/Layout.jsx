@@ -1,6 +1,5 @@
 import React from 'react';
-import Product from './Products';
-import About from './About';
+import { Outlet } from 'react-router-dom';
 
 
 
@@ -15,7 +14,7 @@ const Layout = () => {
             </h1>
             <nav className="mt-6">
                 <ul className="flex justify-center  items-center space-x-4">
-                    <li><a href="/" className="text-md font-semibold text-gray-600 hover:text-gray-800">Home</a></li>
+                    <li><a href="/Home" className="text-md font-semibold text-gray-600 hover:text-gray-800">Home</a></li>
                     <li><a href="/product" className="text-md font-semibold text-gray-600 hover:text-gray-800">Products</a></li>
                     <li><a href="/about" className="text-md font-semibold text-gray-600 hover:text-gray-800">About</a></li>
                 </ul>
@@ -23,12 +22,10 @@ const Layout = () => {
         </header>
         <section className="min-h-screen body-font text-gray-600">
             <div className="container mx-auto px-5 py-10">
-                <div className="-m-4 flex flex-wrap">
-                    <Product />                    
-                </div>
-            </div>
-            <div>
-                <About />
+                {/* <div className="-m-4 flex flex-wrap">
+                    <Home />                    
+                </div> */}
+            <Outlet />
             </div>
         </section>
         <footer>
