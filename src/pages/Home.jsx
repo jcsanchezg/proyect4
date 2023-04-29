@@ -1,6 +1,7 @@
 import React from "react";
 
 import logo from '../images/restauranttittle.jpg';
+import FormReservation from "../components/Reservation";
 
 const Home = () => {
 
@@ -8,6 +9,10 @@ const Home = () => {
     <React.Fragment>
         <h1 className=" text-center mb-16">Wellcome to Parador Restaurant</h1>
         <img src={logo} alt="logo"/>
+        <h1 className=" mb-30 text-center">Come an visit us!</h1>
+        <section>
+        <FormReservation />
+        </section>
     </React.Fragment>
     )
 }

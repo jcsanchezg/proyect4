@@ -32,7 +32,7 @@ function FormReservation() {
     return (
         <React.Fragment>
             <form onSubmit={createReservation} className="mx-auto w-full max-w-[550px]">
-                <h1 className=" text-center mb-3">Please Fill this info to book a table</h1>
+                <h1 className=" text-center mb-3">Please Fill this info to book a table on a special Event</h1>
                 <fieldset className="-mx-3 flex flex-wrap">
                     <div className="w-full px-3 sm:w-1/2">
                         <div className="mb-5">
