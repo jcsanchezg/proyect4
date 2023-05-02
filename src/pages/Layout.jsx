@@ -15,10 +15,10 @@ const Layout = () => {
             </h1>
             <nav className="mt-6">
                 <ul className="flex justify-center  items-center space-x-4">
-                    <li><a href="/Home" className="text-md font-semibold text-gray-600 hover:text-gray-800 hover:font-monaco">Home</a></li>
-                    <li><a href="/product" className="text-md font-semibold text-gray-600 hover:text-gray-800">Products</a></li>
-                    <li><a href="/about" className="text-md font-semibold text-gray-600 hover:text-gray-800">About</a></li>
-                    <li><a href="/reservation" className="text-md font-semibold text-gray-600 hover:text-gray-800">Reservation</a></li>
+                    <li><a href="Home" className="text-md font-semibold text-gray-600 hover:text-gray-800 hover:font-monaco">Home</a></li>
+                    <li><a href="/Product" className="text-md font-semibold text-gray-600 hover:text-gray-800">Products</a></li>
+                    <li><a href="/About" className="text-md font-semibold text-gray-600 hover:text-gray-800">About</a></li>
+                    <li><a href="/Reservation" className="text-md font-semibold text-gray-600 hover:text-gray-800">Reservation</a></li>
                 </ul>
             </nav>
         </header>
