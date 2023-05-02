@@ -10,7 +10,7 @@ const Dish = (props) => {
                 <h3>{name}</h3>
                 <p>{description}</p>
                 <h2>${price}</h2>
-                <button >{action}</button>
+                <div>{action}</div>
             </div>
         </article>
     )
