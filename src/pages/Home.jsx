@@ -1,7 +1,6 @@
 import React from "react";
 
 import logo from '../images/restauranttittle.jpg';
-import FormReservation from "../components/Reservation";
 
 const Home = () => {
 

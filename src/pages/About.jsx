@@ -1,5 +1,4 @@
 import React from "react";
-import FormReservation from "../components/Reservation";
 
 const About = () => {
 
